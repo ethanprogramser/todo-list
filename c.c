@@ -29,6 +29,7 @@ static void save_(GtkWidget *ent, gpointer data) {
 
 	gtk_widget_destroy(save);
 	gtk_widget_destroy(new);
+  gtk_widget_show_all(window);
 
 
 }
